@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from .exceptions import IllegalSize
 
-class students:
+class Students:
     def __init__(self, file_name: str) -> None:
         self.students = pd.read_csv(file_name, index_col=0)
         if (list(self.students.columns) != ["course", "score"]):
@@ -25,5 +25,5 @@ class students:
             return 'F'
         
     def add_letter_grade(self):
-        self.students['letter_grade'] = self.students.score.map(students.to_letter_grade)
+        self.students['letter_grade'] = self.students.score.map(Students.to_letter_grade)
 
