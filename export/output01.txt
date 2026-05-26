@@ -1,0 +1,23 @@
+Grade Analysis Report
+
+Total record: 7
+students: ['Alice', 'Bob', 'Carol', 'David']
+Average score by student: 
+name
+Alice    93.0
+Bob      81.0
+Carol    89.0
+David    73.0
+
+Average score by course: 
+course
+CS      85.500000
+Math    85.666667
+Top student: 
+Alice with average score 93.0
+
+Grade distribution: 
+letter_grade
+A    3
+B    2
+C    2
